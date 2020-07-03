@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.keepsolid.structuregitdemo.model.Student;
+import com.keepsolid.structuregitdemo.model.impl.AlexZhuravlov;
 import com.keepsolid.structuregitdemo.model.impl.ExampleStudent;
 
 import java.util.ArrayList;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         //Добавляем в этот список свой класс, с инициализацией
         ArrayList<Student> students = new ArrayList<>();
         students.add(new ExampleStudent());
+        students.add(new AlexZhuravlov());
 
 
     }
