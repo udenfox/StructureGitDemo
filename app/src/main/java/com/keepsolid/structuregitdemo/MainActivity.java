@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         students.add("Student2");
         students.add("Student3");
         students.add("Student4");
+        students.add("Student5");
+        students.add("Student6");
 
     }
 }
