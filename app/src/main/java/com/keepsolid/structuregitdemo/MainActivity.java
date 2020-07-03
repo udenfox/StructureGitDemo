@@ -4,6 +4,9 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.keepsolid.structuregitdemo.model.Student;
+import com.keepsolid.structuregitdemo.model.impl.ExampleStudent;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,17 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<String> students = new ArrayList<>();
-        students.add("Student1");
-        students.add("Student2");
-        students.add("Student3");
-        students.add("Student4");
-        students.add("Student5");
-        students.add("Student6");
-        students.add("Student7");
-        students.add("Student8");
-        students.add("Student10");
-        students.add("Student11");
+        //Добавляем в этот список свой класс, с инициализацией
+        ArrayList<Student> students = new ArrayList<>();
+        students.add(new ExampleStudent());
+
 
     }
 }
