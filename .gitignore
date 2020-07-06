@@ -10,6 +10,3 @@ local.properties
 /captures
 *.apk
 *.iml
-
-/build
-*.iml

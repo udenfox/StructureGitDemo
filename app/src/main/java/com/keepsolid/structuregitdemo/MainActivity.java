@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.keepsolid.structuregitdemo.model.Student;
 import com.keepsolid.structuregitdemo.model.impl.AlexZhuravlov;
+import com.keepsolid.structuregitdemo.model.impl.AlexanderSuprun;
 import com.keepsolid.structuregitdemo.model.impl.ExampleStudent;
 import com.keepsolid.structuregitdemo.model.impl.PereverzaMariya;
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         students.add(new ExampleStudent());
         students.add(new AlexZhuravlov());
         students.add(new PereverzaMariya("Mariya","Pereverza"));
-
+        students.add(new AlexanderSuprun());
 
     }
 }
