@@ -11,6 +11,9 @@ import com.keepsolid.structuregitdemo.model.impl.ExampleStudent;
 import com.keepsolid.structuregitdemo.model.impl.PereverzaMariya;
 import com.keepsolid.structuregitdemo.model.impl.VasylyIshkov;
 import com.keepsolid.structuregitdemo.model.impl.VladBerestenko;
+import com.keepsolid.structuregitdemo.model.impl.WilliamNovitskiy;
+import com.keepsolid.structuregitdemo.model.impl.MariiaKozhushan;
+import com.keepsolid.structuregitdemo.model.impl.VolodymyrHolichenko;
 
 import java.util.ArrayList;
 
@@ -25,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Student> students = new ArrayList<>();
         students.add(new ExampleStudent());
         students.add(new AlexZhuravlov());
-        students.add(new PereverzaMariya("Mariya", "Pereverza"));
+        students.add(new PereverzaMariya("Mariya","Pereverza"));
         students.add(new VladBerestenko("Vlad", "Berestenko"));
         students.add(new AlexanderSuprun());
         students.add(new VasylyIshkov("Vasyly", "Ishkov"));
