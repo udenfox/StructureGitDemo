@@ -12,6 +12,7 @@ import com.keepsolid.structuregitdemo.model.impl.PereverzaMariya;
 import com.keepsolid.structuregitdemo.model.impl.VasylyIshkov;
 import com.keepsolid.structuregitdemo.model.impl.VladBerestenko;
 import com.keepsolid.structuregitdemo.model.impl.WilliamNovitskiy;
+import com.keepsolid.structuregitdemo.model.impl.MariiaKozhushan;
 
 import java.util.ArrayList;
 
@@ -31,6 +32,6 @@ public class MainActivity extends AppCompatActivity {
         students.add(new AlexanderSuprun());
         students.add(new VasylyIshkov("Vasyly","Ishkov"));
         students.add(new WilliamNovitskiy());
-
+        students.add(new MariiaKozhushan("Mariia","Kozhushan"));
     }
 }
