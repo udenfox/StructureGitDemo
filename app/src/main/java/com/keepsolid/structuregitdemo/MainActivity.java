@@ -9,6 +9,7 @@ import com.keepsolid.structuregitdemo.model.impl.AlexZhuravlov;
 import com.keepsolid.structuregitdemo.model.impl.AlexanderSuprun;
 import com.keepsolid.structuregitdemo.model.impl.ExampleStudent;
 import com.keepsolid.structuregitdemo.model.impl.PereverzaMariya;
+import com.keepsolid.structuregitdemo.model.impl.TommyLovsky;
 import com.keepsolid.structuregitdemo.model.impl.VasylyIshkov;
 import com.keepsolid.structuregitdemo.model.impl.VladBerestenko;
 import com.keepsolid.structuregitdemo.model.impl.WilliamNovitskiy;
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         students.add(new WilliamNovitskiy());
         students.add(new MariiaKozhushan("Mariia", "Kozhushan"));
         students.add(new VolodymyrHolichenko("Volodymyr", "Holichenko"));
+        students.add(new TommyLovsky("Tommy", "Lovsky"));
+        }
 
     }
-}
+
